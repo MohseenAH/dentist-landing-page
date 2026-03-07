@@ -1,8 +1,21 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # 🦷 BrightSmile Dental – Modern Dentist Landing Page
 
 A clean, modern, and conversion-focused landing page designed for dental clinics to showcase services, build trust with patients, and encourage appointment bookings.
 
 Built with **Next.js and Tailwind CSS**, this project focuses on **fast performance, responsive design, and a professional healthcare UI**.
+
+---
+
+## 🚀 Live Demo
+
+👉 **[View the Live Website](https://dentist-landing-page-nine.vercel.app)**
+
+This project is deployed on **Vercel** and automatically updates whenever new changes are pushed to GitHub.
 
 ---
 
@@ -136,17 +149,6 @@ Open in browser:
 ```
 http://localhost:3000
 ```
-
----
-
-## 🌐 Deployment
-
-This project can be easily deployed using platforms that support Next.js such as:
-
-* Vercel
-* Netlify
-* Cloud hosting platforms
-
 ---
 
 ## 🔮 Future Improvements
