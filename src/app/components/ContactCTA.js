@@ -87,6 +87,8 @@ export default function ContactCTA() {
               src="https://www.google.com/maps?q=Baner+Pune&output=embed"
               className="w-full h-full border-0"
               loading="lazy"
+              title="BrightSmile Dental Clinic Location"
+              referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
 

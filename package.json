@@ -21,5 +21,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4"
-  }
+  },
+  "browserslist": [
+  "defaults and supports es6-module",
+  "not ie 11"
+]
 }
