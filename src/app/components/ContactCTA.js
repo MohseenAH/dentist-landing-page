@@ -50,9 +50,9 @@ export default function ContactCTA() {
               <FaPhoneAlt className="text-gray-900 text-xl mt-1" />
               <div>
                 <h4 className="font-semibold text-black">Call Us</h4>
-                <p className="text-gray-700 text-sm">
-                  +91 98765 43210<br/>
-                  +91 91234 56789
+                <p className="text-black text-sm font-bold">
+                  +91 91564 13365<br/>
+                  +91 99999 99999
                 </p>
               </div>
             </div>
@@ -98,7 +98,7 @@ export default function ContactCTA() {
         <div className="flex justify-center gap-4 mt-12">
 
           <a
-            href="tel:+919876543210"
+            href="tel:+919156413365"
             className="bg-black text-white px-6 py-4 rounded-lg flex items-center gap-2 hover:opacity-90 transition"
           >
             <FaPhoneAlt />
@@ -106,7 +106,9 @@ export default function ContactCTA() {
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919156413365?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment.%20Please%20share%20available%20slots."
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-green-500 text-black px-6 py-4 rounded-lg flex items-center gap-2 hover:opacity-90 transition font-bold"
           >
             <FaWhatsapp size={24}/>

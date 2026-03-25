@@ -33,7 +33,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8">
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/919156413365?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment.%20Please%20share%20available%20slots."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] transition px-8 py-4 rounded-xl font-semibold text-black shadow-md w-full sm:w-auto"
@@ -43,7 +43,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="tel:+919999999999"
+              href="tel:+919156413365"
               className="flex items-center justify-center gap-2 border border-gray-300 bg-black text-white hover:bg-gray-800 transition px-8 py-4 rounded-xl font-semibold shadow-sm w-full sm:w-auto"
             >
               <FaPhone size={18} />

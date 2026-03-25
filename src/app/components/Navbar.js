@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Desktop Button */}
         <a
-          href="https://wa.me/919999999999"
+          href="https://wa.me/919156413365?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment.%20Please%20share%20available%20slots."
           target="_blank"
           className="hidden lg:inline-flex items-center gap-2 bg-[#25D366] text-black px-5 py-2 rounded-lg font-semibold hover:bg-[#20bd5a] transition"
         >
@@ -78,7 +78,7 @@ export default function Navbar() {
 
             <div className="pt-2 border-t border-gray-200 mt-2">
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/919156413365?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment.%20Please%20share%20available%20slots."
                 target="_blank"
                 onClick={() => setMenuOpen(false)}
                 className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#25D366] text-black font-semibold hover:bg-[#20bd5a] transition"

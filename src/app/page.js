@@ -1,3 +1,4 @@
+import BookingSection from "./components/BookingSection";
 import ContactCTA from "./components/ContactCTA";
 import DoctorSection from "./components/DocterSection";
 import FAQ from "./components/FAQ";
@@ -22,6 +23,7 @@ export default function Home() {
       <TrustSection/>
       <Testimonials/>
       <ContactCTA/>
+      <BookingSection/>
       <FAQ/>
       <Footer/>
     </main>
