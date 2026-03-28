@@ -1,77 +1,90 @@
 "use client";
 
+import { FaWhatsapp } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
+import { FaStar } from "react-icons/fa";
+import { GiTooth } from "react-icons/gi";
 import Image from "next/image";
-import { FaWhatsapp, FaPhone } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section 
-    id="home" 
-    className="bg-black/10 flex lg:items-center px-4 sm:px-6 py-12 md:py-14 lg:py-12 xl:min-h-[calc(100vh-80px)]"
+    <section
+      id="home"
+      className="w-full px-5 sm:px-6 lg:px-8 flex items-center pt-6 md:pt-10 lg:pt-14 pb-10"
     >
-      <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-10 lg:gap-14 items-center">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center w-full">
 
-        {/* Left Content */}
-        <div className="text-center md:text-left">
+        {/* LEFT CONTENT */}
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-[640px] mx-auto lg:mx-0">
 
-          {/* Clinic Name */}
-          <p className="text-teal-600 font-semibold tracking-wide mb-3 text-sm sm:text-base">
+          {/* BRAND */}
+          <span className="text-[12px] font-bold uppercase tracking-[0.18em] text-teal-600 bg-teal-50 px-3 py-1 rounded-full">
             BrightSmile Dental Studio
-          </p>
+          </span>
 
-          {/* Headline */}
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-            Pain-Free Dental Care <br />
-            <span className="text-teal-600">in Baner, Pune</span>
+          {/* HEADLINE */}
+          <h1 className="mt-4 font-bold text-gray-900 leading-[1.1] text-[30px] sm:text-[38px] md:text-[42px] lg:text-[52px]">
+            <span className="block">Book Your Dental Appointment</span>
+            <span className="block text-teal-600">in 10 Minutes in Pune</span>
           </h1>
 
-          {/* Subheadline */}
-          <p className="text-black text-base sm:text-lg mb-8 max-w-xl mx-auto md:mx-0">
-            Modern dental treatments with advanced equipment and experienced dentists focused on comfortable and painless care.
+          {/* SUBHEADLINE */}
+          <p className="mt-4 text-base md:text-lg text-gray-600 max-w-[520px]">
+            Same-day appointments available — book now.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8">
+          {/* TRUST BADGES */}
+          <div className="mt-5 flex flex-wrap justify-center lg:justify-start gap-4 text-sm text-gray-600 font-medium">
+
+            <div className="flex items-center gap-2">
+              <FaStar className="text-yellow-500 text-sm" />
+              4.9 Google Reviews
+            </div>
+
+            <div className="flex items-center gap-2">
+              <GiTooth className="text-teal-600 text-sm" />
+              10+ Years Experience
+            </div>
+
+          </div>
+
+          {/* CTA */}
+          <div className="mt-7 flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+
             <a
-              href="https://wa.me/919156413365?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment.%20Please%20share%20available%20slots."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] transition px-8 py-4 rounded-xl font-semibold text-black shadow-md w-full sm:w-auto"
+              href="https://wa.me/919156413365?text=Hi, I want to book a dental appointment."
+              className="flex items-center justify-center gap-2 bg-green-600 text-white py-3 px-6 rounded-xl font-semibold shadow-md hover:bg-green-700 transition"
             >
-              <FaWhatsapp size={20} />
+              <FaWhatsapp />
               Book Appointment
             </a>
 
             <a
               href="tel:+919156413365"
-              className="flex items-center justify-center gap-2 border border-gray-300 bg-black text-white hover:bg-gray-800 transition px-8 py-4 rounded-xl font-semibold shadow-sm w-full sm:w-auto"
+              className="flex items-center justify-center gap-2 bg-slate-800 text-white py-3 px-6 rounded-xl font-semibold shadow-md hover:bg-black transition"
             >
-              <FaPhone size={18} />
+              <FiPhoneCall />
               Call Now
             </a>
+
           </div>
 
-          {/* Trust Statement */}
-          <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-6 gap-y-2 text-black text-sm">
-            <p>⭐ 4.8 Google Rating</p>
-            <p>1200+ Happy Patients</p>
-            <p>10+ Years Experience</p>
-          </div>
         </div>
 
-        {/* Right Image */}
-        <div className="relative w-full h-[320px] sm:h-[380px] md:h-[450px] lg:h-[500px] rounded-2xl overflow-hidden">
+        {/* IMAGE */}
+        <div className="relative w-full h-[320px] sm:h-[380px] md:h-[440px] lg:h-[480px] rounded-3xl overflow-hidden shadow-xl">
+
           <Image
             src="/images/HeroDent.webp"
-            alt="BrightSmile Dental Clinic"
+            alt="Dental treatment at BrightSmile clinic"
             fill
             priority
-            sizes="(max-width:768px) 100vw, 50vw"
+            sizes="(max-width:1024px) 100vw, 45vw"
             className="object-cover"
           />
 
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-black/10 to-transparent"></div>
+
         </div>
 
       </div>
