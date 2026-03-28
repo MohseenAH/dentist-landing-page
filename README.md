@@ -123,7 +123,7 @@ brightsmile-dental/
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/dentist-landing-page.git
+git clone https://github.com/MohseenAH/dentist-landing-page.git
 ```
 
 Navigate into the project folder:
